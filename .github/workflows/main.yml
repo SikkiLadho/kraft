@@ -35,4 +35,4 @@ jobs:
       - name: Install kraft
         run: pip3 install git+https://github.com/unikraft/kraft.git
       - name: Kraft list
-        run: kraft list
+        run: printf 'y' | kraft list
